@@ -16,13 +16,13 @@ button_font = pygame.font.SysFont('Arial', 10)
 button_text = button_font.render('DO NOT CLICK',True,text_color)
 screen.fill((100,100,100))
 # this is my sprite 
-snake1 = pygame.image.load(os.path.join('/Users/gregorirodriguez/Desktop/Udemy_Games/hello_pygame/images/sel.png'))
+snake1 = pygame.image.load(os.path.join('/Users/gregorirodriguez/Desktop/Udemy_Games/drawing_game/images/sel.png'))
 spriteWidth = 32
 spriteheight = 32
 
 snake1 = pygame.transform.scale(snake1,(spriteWidth,spriteheight))
 #this is the the title of the game window  
-pygame.display.set_caption("DONT CLICK THE RECTANGLE")
+pygame.display.set_caption("DO NOT CLICK THE RECTANGLE")
 screen.fill((225,225,225))
 
 
